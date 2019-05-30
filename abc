@@ -1,0 +1,7 @@
+j=2
+while [ $j -le 20 ]
+do
+   echo -n "$j "
+   j=$(( j + 1 )) 
+done
+echo ""
